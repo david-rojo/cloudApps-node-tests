@@ -87,7 +87,7 @@ test('Post film e2e test, expected created', async () => {
         .send(film)
         .expect(201);
 
-  expect(response.body['title']).toBe("title4");
-  expect(response.body['year']).toBe(2004);
-  expect(response.body['director']).toBe("director4");
+  expect(response.body.title).toBe(film.title);
+  expect(response.body.year).toBe(film.year);
+  expect(response.body.director).toBe(film.director);
 });

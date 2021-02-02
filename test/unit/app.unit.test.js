@@ -33,6 +33,7 @@ test('Get films unit test, expected ok', async () => {
 
     const response = await request
         .get('/api/films/')
+        .expect('Content-type', /json/)
         .expect(200);
 
     expect(response.body.length).toBe(3);

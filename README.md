@@ -1,5 +1,7 @@
 # Testing in Node: Jest & TestContainers
 
+The implemented tests cover the following [scenario](doc/scenario.md).
+
 ## Create film (bash)
 
 ```

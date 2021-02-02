@@ -5,7 +5,7 @@ The implemented tests cover the following [scenario](doc/scenario.md).
 ## Create film (bash)
 
 ```
-$ curl -d '{ "title": "Watchmen", "year" : 2009, "director": "Zack Snyder"}'\
+$ curl -d '{ "title": "film_title", "year" : 2021, "director": "film_director"}'\
     -H "Content-Type: application/json" -X POST http://localhost:3000/api/films/
 ```
 

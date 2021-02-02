@@ -14,6 +14,7 @@ Following tests are required to implement:
 
 **NOTES:**
 * Tests must be independant of each other (not depend on information that other tests have created or deleted).
+* Tests must be implemented with Jest and Supertest.
 * Tests must be grouped by different modules because they are different type of tests.
 * Application uses a DynamoDB database, usually managed by Amazon Web Services cloud service provider. It is possible to run the application locally using this docker command:
 ```
